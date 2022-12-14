@@ -7,7 +7,7 @@
 <title>Insert title here</title>
 </head>
 <body>
-<h1>Login</h1>
+<h1>Register</h1>
 <form action="Register_Ecommerse_app" method="post">
      Name: <input type="text" name="userName">
      Password: <input type="password" name="password">
