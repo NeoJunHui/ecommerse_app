@@ -8,7 +8,7 @@
 </head>
 <body>
 <h1>Register</h1>
-<form action="Register_Ecommerse_app" method="post">
+<form action="RegisterServlet" method="post">
      Name: <input type="text" name="userName">
      Password: <input type="password" name="password">
      Email: <input type="text" name="email">
