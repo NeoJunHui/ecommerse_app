@@ -7,7 +7,7 @@
 <title>Ecommerse</title>
 </head>
 <body>
-<h1>ecommerse_app!</h1>
+<h1>Login</h1>
 <form action=" login Ecommerse_app" method="post">
      Name: <input type="text" name="userName">
      Password: <input type="password" name="password">
@@ -17,7 +17,7 @@
            <option>Spanish</option>
            <option>French</option>
      </select>
-     <input type="submit" value="Call Servlet" />
+     <input type="submit" value="Login" />
 </form>
 </body>
 </html>
