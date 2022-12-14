@@ -5,13 +5,15 @@
 <head>
 <meta charset="ISO-8859-1">
 <title>Ecommerse</title>
+<style>
+
+</style>
 </head>
 <body>
 <h1>Login</h1>
-<form action=" loginServlet" method="post">
-     Name: <input type="text" name="userName">
-     Password: <input type="password" name="password">
-     <input type="submit" value="Login" />
-</form>
+<ul>
+<li><a class="active" href="index.jsp">Home</a></li>
+<li><a class="active" href="productManagement.jsp">Products</a></li>
+</ul>
 </body>
 </html>

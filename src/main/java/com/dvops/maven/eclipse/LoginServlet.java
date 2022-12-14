@@ -1,13 +1,14 @@
 package com.dvops.maven.eclipse;
 
 import java.io.IOException;
+import java.io.PrintWriter;
+
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-import java.io.PrintWriter;
 
 /**
  * Servlet implementation class LoginServlet
@@ -36,6 +37,10 @@ public class LoginServlet extends HttpServlet {
 	 * @see HttpServlet#doPost(HttpServletRequest request, HttpServletResponse response)
 	 */
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		String userName = request.getParameter("userName");
+		PrintWriter writer = response.getWriter();
+		writer.println("<h1>Hello " + userName + "</h1>");
+		writer.close();
 		// TODO Auto-generated method stub
 		doGet(request, response);
 	}
