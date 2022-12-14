@@ -44,7 +44,7 @@ li a:hover {
 }
 </style>
 <title>Product Details</title>
-<%@taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
+
 <link rel="stylesheet"
 	href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
 	integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
@@ -55,6 +55,8 @@ li a:hover {
 	<ul>
 		<li><a class="active" href="index.jsp">Home</a></li>
 		<li><a class="active" href="productManagement.jsp">Products</a></li>
+		<li style="float:right"><a class="active" href="plogin.jsp">Login</a></li>
+		<li style="float:right"><a class="active" href="register.jsp">Register</a></li>
 	</ul>
 	<div class="row">
 		<div class="container">

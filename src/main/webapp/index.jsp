@@ -52,6 +52,8 @@ li a:hover {
 	<ul>
 		<li><a class="active" href="index.jsp">Home</a></li>
 		<li><a class="active" href="productManagement.jsp">Products</a></li>
+		<li style="float:right"><a class="active" href="login.jsp">Login</a></li>
+		<li style="float:right"><a class="active" href="register.jsp">Register</a></li>
 	</ul>
 	<br>
 	<h1>Welcome user!</h1>
