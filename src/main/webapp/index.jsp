@@ -8,15 +8,9 @@
 </head>
 <body>
 <h1>Login</h1>
-<form action=" login Ecommerse_app" method="post">
+<form action=" loginServlet" method="post">
      Name: <input type="text" name="userName">
      Password: <input type="password" name="password">
-     Email: <input type="text" name="email">
-     Language: <select name="Language">
-           <option>English</option>
-           <option>Spanish</option>
-           <option>French</option>
-     </select>
      <input type="submit" value="Login" />
 </form>
 </body>
