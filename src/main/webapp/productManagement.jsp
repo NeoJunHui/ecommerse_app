@@ -84,6 +84,12 @@ li a:hover {
 							<p name="price">$9.00</p>
 							<input style="float: right" value="Buy" type="submit" />
 						</div>
+						<div class="card">
+							<h1 name="name">Test</h1>
+							<h2>Example</h2>
+							<p name="price">$9.00</p>
+							<input style="float: right" value="Buy" type="submit" />
+						</div>
 					</div>
 				</div>
 			</form>

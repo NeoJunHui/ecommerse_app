@@ -34,19 +34,9 @@ class ProductTest {
 	@Test
 	
 	void testAddProduct() {
-
-		// fail("Not yet implemented");
-
-		List<Product> testPl = pl.getProduct();
-
-		// Assert that Song Collection is equals to song collection size 4
-		// assertEquals(testSc.size(), SONG_COLLECTION_SIZE); //Act
-
 		pl.addProduct(p1);
-
-		// Assert that Song Collection is equals to song collection size 4 + 1
-		// assertEquals(sc.getSongs().size(), SONG_COLLECTION_SIZE+1);
-
+		
+		List<Product> testPl = pl.getProduct();
 	}
 	
 	void testGetProduct() {
