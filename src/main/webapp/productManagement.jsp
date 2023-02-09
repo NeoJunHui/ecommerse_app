@@ -79,9 +79,9 @@ li a:hover {
 							<input style="float: right" value="Buy" type="submit" />
 						</div>
 						<div class="card">
-							<h1 name="name">Headphone</h1>
-							<h2>Electronic</h2>
-							<p name="price">$35.50</p>
+							<h1 name="name">gvgvjbkjkb</h1>
+							<h2>Electkbkbkjbkjronic</h2>
+							<p name="price">$90909</p>
 							<input style="float: right" value="Buy" type="submit" />
 						</div>
 					</div>
