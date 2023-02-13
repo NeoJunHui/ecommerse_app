@@ -12,12 +12,25 @@
 		<maven.compiler.source>1.8</maven.compiler.source>
 		<maven.compiler.target>1.8</maven.compiler.target>
 
+		<junit-jupiter.groupId>org.junit.jupiter</junit-jupiter.groupId>
+
 		<junit-jupiter.groudId>org.junit.jupiter</junit-jupiter.groudId>
+
 		<junit-jupiter.artifactId>junit-jupiter</junit-jupiter.artifactId>
 		<junit-jupiter.version>5.7.0</junit-jupiter.version>
 	</properties>
 
 	<dependencies>
+
+		<!-- https://mvnrepository.com/artifact/org.junit.jupiter/junit-jupiter-api -->
+		<dependency>
+			<groupId>org.junit.jupiter</groupId>
+			<artifactId>junit-jupiter</artifactId>
+			<version>5.7.0</version>
+			<scope>test</scope>
+		</dependency>
+
+
 		<dependency>
 			<groupId>javax.servlet</groupId>
 			<artifactId>javax.servlet-api</artifactId>
@@ -30,6 +43,8 @@
 			<version>2.3.1</version>
 			<scope>provided</scope>
 		</dependency>
+
+
 		<dependency>
 			<groupId>org.junit.jupiter</groupId>
 			<artifactId>junit-jupiter</artifactId>
@@ -37,17 +52,32 @@
 			<scope>test</scope>
 		</dependency>
 
+
 		<!-- https://mvnrepository.com/artifact/mysql/mysql-connector-java -->
 		<dependency>
 			<groupId>mysql</groupId>
 			<artifactId>mysql-connector-java</artifactId>
 			<version>8.0.25</version>
 		</dependency>
+
+		<dependency>
+			<groupId>org.mockito</groupId>
+			<artifactId>mockito-core</artifactId>
+			<version>5.1.1</version>
+			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<groupId>org.mockito</groupId>
+			<artifactId>mockito-junit-jupiter</artifactId>
+			<version>5.1.1</version>
+			<scope>test</scope>
+
 		<!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
 		<dependency>
 			<groupId>org.seleniumhq.selenium</groupId>
 			<artifactId>selenium-java</artifactId>
 			<version>3.141.59</version>
+      
 		</dependency>
 	</dependencies>
 	<build>
@@ -63,10 +93,12 @@
 				<artifactId>maven-war-plugin</artifactId>
 				<version>3.2.3</version>
 			</plugin>
+
 			<plugin>
 				<artifactId>maven-surefire-plugin</artifactId>
 				<version>2.22.1</version>
 			</plugin>
+
 		</plugins>
 	</build>
 </project>
