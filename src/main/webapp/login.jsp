@@ -30,7 +30,7 @@ li a:hover {
 }
 </style>
 <meta charset="ISO-8859-1">
-<title>Login</title>
+<title>Logintest</title>
 </head>
 <body>
 </head>
@@ -45,7 +45,7 @@ li a:hover {
 	<form action=" LoginServlet" method="post">
 		Name: <input type="text" name="userName"> Password: <input
 			type="password" name="password"> <input type="submit"
-			value="Login" />
+			value="Login"/>
 	</form>
 </body>
 </html>
