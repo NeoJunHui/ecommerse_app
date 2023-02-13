@@ -40,9 +40,8 @@ public class RegisterServlet extends HttpServlet {
 	 */
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		PrintWriter writer = response.getWriter();
-		writer.write("<h1>User registered</h1>");
-		//writer.println("User registered");
-		writer.write("<a href=\"./index.jsp\">Return to home</a>");
+		writer.println("<h1>User registered</h1>");
+		writer.println("<button href=\"index.jsp\">Return to home</button>");
 		writer.close();
 		doGet(request, response);
 	}
