@@ -45,7 +45,7 @@ li a:hover {
 	<form action=" LoginServlet" method="post">
 		Name: <input type="text" name="userName"> Password: <input
 			type="password" name="password"> <input type="submit"
-			value="Login" />
+			value="Login"/>
 	</form>
 </body>
 </html>
