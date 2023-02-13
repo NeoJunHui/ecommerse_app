@@ -39,8 +39,7 @@ public class LoginServlet extends HttpServlet {
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		String userName = request.getParameter("userName");
 		PrintWriter writer = response.getWriter();
-		// writer.println("<h1>Hello " + userName + "</h1>");
-		writer.write("Hello "+userName);
+		writer.println("<h1>Hello " + userName + "</h1>");
 		writer.close();
 		// TODO Auto-generated method stub
 		doGet(request, response);
