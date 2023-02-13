@@ -30,7 +30,7 @@ li a:hover {
 }
 </style>
 <meta charset="ISO-8859-1">
-<title>Login test</title>
+<title>Logintest</title>
 </head>
 <body>
 </head>
